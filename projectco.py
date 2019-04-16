@@ -4,7 +4,7 @@ import requests
 import json
 class registration:
 	def __init__(self,first):
-		#frame1=Frame( first )
+		#frame1=Frame( first ).
 		#frame1.pack( )
 		self.first=first
 		self.first.title("Login Page")
