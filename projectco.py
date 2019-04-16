@@ -41,7 +41,7 @@ class registration:
 	def log(self):
 		#if(self.check()):
 		self.Q=self.entryP.get()
-		#print(self.Q)
+		#print(self.Q).
 		ids=(self.entryU.get())
 		query="SELECT Password FROM user WHERE User_ID = ?"
 		self.run_query1(query,(ids,))
