@@ -9,7 +9,7 @@ class registration:
 		self.first=first
 		self.first.title("Login Page")
 
-		#self.photo=PhotoImage(file="images.png")
+		#self.photo=PhotoImage(file="images.png").
 		self.background_image=PhotoImage(file="helll.png")
 		#first.configure(bg="black",height=3000,width=3000)
 		canvas=Canvas(first,height=3000,width=3000)
